@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('./img/istockphoto-1200976833-170667a.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  outline: none;
+}
+
+main{
+  font-family: "Trirong", serif;
+}
+
+
+.search input:focus ~ i{
+  color:  rgb(37, 154, 226);
+}
+
